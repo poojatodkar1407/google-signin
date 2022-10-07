@@ -1,0 +1,15 @@
+spring:
+  profiles: local
+  datasource:
+    url: jdbc:mysql://localhost:3306/codinclub?useSSL=false
+    username: root
+    password: Admin@1234
+  jpa:
+    show-sql: true
+google:
+  credentials:
+    path: /credentials.json
+    url: http://localhost:8080/admin/savecode/
+
+Image:
+  imageUrl: http://localhost:8080/admin/image/
